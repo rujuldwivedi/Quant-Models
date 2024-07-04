@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: FMNM
+Version: 1.0.0
+Summary: Library for the code used in the FMNM notebooks.
+Author-email: cantaro86 <nicolacantarutti@gmail.com>
+Project-URL: Homepage, https://github.com/cantaro86/Financial-Models-Numerical-Methods
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
