@@ -6,24 +6,6 @@ This repository contains implementations of various quantitative finance models.
 
 Quant Models is a collection of quantitative finance models implemented in Jupyter notebooks, with additional C and FMNM implementations. It includes models for option pricing, time series analysis, and more.
 
-## Folder Structure
-Quant Models/
-├── data/
-│ ├── historical/
-│ └── ...
-├── src/
-│ ├── C/
-│ ├── FMNM/
-│ └── ...
-├── Black-Scholes.ipynb
-├── Fourier-Transform.ipynb
-├── Kalman-Filter.ipynb
-├── Option-Pricing.ipynb
-├── pyproject.toml
-├── environment.yaml
-├── setup.py
-└── README.md
-
 ## Quantitative Models
 
 ### Black-Scholes Model
