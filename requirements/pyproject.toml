@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "numpy", "cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "FMNM"
+version = "1.0.0"
+authors = [{ name = "Rujul Dwivedi", email = "rujul.dwivedi.21033@iitgoa.ac.in" }]
+description = "Library for the code used in the FMNM notebooks."
+readme = "README.md"
+requires-python = ">=3.8"
+dynamic = ["dependencies"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false  # prevent folders without __init__.py from being scanned
+
+[project.urls]
+"Homepage" = "https://github.com/rujuldwivedi/Quant-Finance-Models"
